@@ -114,3 +114,24 @@ git commit -a -m "tercer commit, trabajando con Git y GitHubClassroom"
 git push
 ```
 22. Verificar que el repositorio en su cuenta de **GitHub** esté actualizado.
+
+23. Simular un cambio remoto, para ello se generará un cambio directo en la plataforma GitHub
+
+* Localiza el archivo README.md
+* Haz clic en el ícono de edición (lápiz) para modificar el archivo directamente en GitHub.
+* Agrega una línea de texto simple, como:
+
+```md
+# Cambio en GitHub
+* Este cambio fue hecho directamente en GitHub
+```
+* Haz Commit del cambio directamente en la interfaz web de GitHub (usando el botón "Commit changes")
+* **Atención**: El repositorio en GitHub tiene un commit que tu máquina local aún no tiene.
+
+24. Sincronizar cambios a la Máquina Local (Usando git pull)
+* Regresar a Git-Bash en tu máquina local (dentro de la carpeta clonada)
+* Analizar la salida en consola: Git mostrará que ha descargado un commit y ha fusionado (merged) los cambios en tu rama local.
+
+25. Verificar la integración del Cambio
+
+* Abrir el archivo README.md y verificar que la línea que agregaste en GitHub
